@@ -49,6 +49,5 @@ input[type=text], textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50%;
-    width: 40%;
+    width: 50%;
 }
