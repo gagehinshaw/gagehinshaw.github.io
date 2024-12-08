@@ -19,7 +19,7 @@
     display: block; 
     color: white; 
     text-align: center; 
-    padding: 16px 280px;
+    padding: 14px 20x;
     text-decoration: none; 
 }
 
@@ -46,6 +46,6 @@ input[type=text], textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical; 
     width: 100%; 
 }
