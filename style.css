@@ -22,12 +22,7 @@
     padding: 16px 22px;
     text-decoration: none; 
 }
-
-.navigation a.right {
-    float: right;
-}
   
-
 .navigation a:hover {
     background-color: #bebebe; 
     color: black; 
@@ -55,5 +50,5 @@ input[type=text], textarea {
     margin-left: auto;
     margin-right: auto;
     height: 50%;
-    width: 50%;
+    width: 60%;
 }
