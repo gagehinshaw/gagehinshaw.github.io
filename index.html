@@ -18,8 +18,50 @@
     <div>
         <h1> CS 170 Projects</h1>
         <h2> - HW1 or "Best Movies"</h2>
+        <p> HW1 was a webpage assignment to get us familiar with HTML. The assignment was to create a simple webpage that listed our favorite films and a description of why those films.</p>
+        <img id="img1" src="">
+        <button type="button" onclick="hw1()" id="btn1">
+            Show Image
+        </button>
+        <script>
+            function hw1() {
+                let image = document.getElementById("img1");
+                image.src = "HW1.png"
+                document.getElementById("btn1")
+                    .style.display = "none";
+            }
+        </script>
         <h2> - HW2 or "Party"</h2>
+        <p> HW2 was a webpage assingment that introduced us to more advanced HTML items. For this assignment, we created a party invitation. This assignment taught us about images, lists, and anchor tags.</p>
+        <img id="img2" src="">
+        <button type="button" onclick="hw2()" id="btn2">
+            Show Image
+        </button>
+        <script>
+            function hw2() {
+                let image = document.getElementById("img2");
+                image.src = "HW2.png"
+                document.getElementById("btn2")
+                    .style.display = "none";
+            }
+        </script>
         <h2> - HW3 or "Online Resume"</h2>
+        <p> HW3 was a webpage assignment focused on creating a online resume.</p>
+        <img id="img3" src="">
+        <img id="img4" src="">
+        <button type="button" onclick="hw3()" id="btn3">
+            Show Image
+        </button>
+        <script>
+            function hw3() {
+                let image = document.getElementById("img3");
+                image.src = "hw3-1.png"
+                let image = document.getElementById("img4");
+                image.src = "hw3-2.png"
+                document.getElementById("btn2")
+                    .style.display = "none";
+            }
+        </script>
     </div>
 </body>
 </html>
